@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Responsive Web Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container container-flex">
+        <div class="site-title">
+          <h1>Living the Simple Life</h1>
+          <p class="subtitle">A blog exploring minimalism in Life</p>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list-items">
+              <a class="current-page nav-links" href="index.html">Home</a>
+            </li>
+            <li class="nav-list-items">
+              <a class="nav-links" href="about-me.html">About me</a>
+            </li>
+            <li class="nav-list-items">
+              <a class="nav-links" href="recent-post.html">Recent posts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--  Closed nav-container -->
+    </header>
+
+    <div class="container container-flex">
+        <main role="main">
+            <article class="article-featured">
+                <h2 class="article-title">
+                    Finding simplicity in life
+                </h2>
+                <img src="images/life.jpg" alt="life"  class="article-image">
+                <p class="article-info">
+                    July 23, 2019 | 3 comments
+                </p>
+                <p class="article-body">
+                    <strong>Life can get complicated really quickly</strong>, but it doesn't have to be! There are many ways to simplify your life, <a href="#">a few of which we've explored in the past</a>. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living.
+                </p>
+                <a href="#" class="article-read-more">continue reading</a>
+            </article>
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">Keeping cooking simple</h2>
+                    <p class="article-body">Food is a very important part of everyone's life. If you want to be healthy, you have to eat healthy. One of the easiest ways to do that is to keep your cooking nice and simple.</p>
+                    <a href="#" class="article-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="images/food.jpg" alt="momo" class="article-image">
+                    <p class="article-info">July 19, 2019 | 3 comments</p>
+                    
+                </div>
+            </article>
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">Simplicity and work</h2>
+                    <p class="article-body">Work is often a major source of stress. People get frustrated, it ruins their relationship with others and it leads to burnout. By keeping your work life as simple as possible, it will help balance everything out.
+
+                    </p>
+                    <a href="#" class="article-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="images/work.jpg" alt="work" class="article-image">
+                    <p class="article-info">
+                        July 12, 2019 | 3 comments
+                    </p>
+                </div>
+            </article>
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">
+                        Simple decorations
+                    </h2>
+                    <p class="article-body">
+                        A home isn't a home until you've decorated a little. People either don't decorate, or they go overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the eye where you want it to and make things pop like never before.
+
+
+                    </p>
+                    <a href="#" class="article-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="images/deco.jpg" alt="leaf" class="article-image">
+                    <p class="article-info">
+                        July 3, 2019 | 3 comments
+                    </p>
+                </div>
+            </article>
+        </main>
+
+
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h2 class="widget-title">
+                    About me
+                </h2>
+                <img src="images/about-me.jpg" alt="about-me" class="widget-image">
+                <p class="widget-body">
+                    I find life better, and I'm happier, when things are nice and simple.
+                </p>
+            </div>
+
+            <div class="sidebar-widget">
+                <h2 class="widget-title">
+                    Recent posts
+                </h2>
+                <div class="widget-recent-post">
+                    <h3 class="widget-recent-post-title">Keeping Cooking Simple</h3>
+                    <img src="images/food.jpg" alt="image" class="widget-image">
+                </div>
+            
+        
+                <div class="widget-recent-post">
+                    <h3 class="widget-recent-post-title">Simplicity and Work</h3>
+                    <img src="images/work.jpg" alt="work" class="widget-image">
+                </div>
+           
+                <div class="widget-recent-post">
+                    <h3 class="widget-recent-post-title">Simple Decorant</h3>
+                    <img src="images/deco.jpg" alt=""decor class="widget-image">
+                </div>
+       
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p><strong>Living the Simple Life</strong></p>
+        <p>Copyright 2025</p>
+      </footer>
+  </body>
+</html>
+
+<!-- ================
+    Previous Html: Filled with lots of lesson to learn
+===================-->
+
+<!-- <header>
+    <div class="section">
+        <h1>CSS is a lot of fun</h1>
+    </div>
+</header> -->
+
+<!-- <div class="section-three">
+    <div class="container">
+        <h2>Putting em to use</h2>
+        <ul>
+            <li>Just</li>
+            <li>Do</li>
+            <li>It</li>
+            <li>Now</li>
+        </ul>
+    </div>
+</div>
+   
+<div class="section-two">
+        <div class="container">
+            <h2>Section Two Title</h2>
+            <img src="images/Main-sub 1.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim incidunt cupiditate omnis! Libero corporis iste, cumque impedit quas cum numquam blanditiis hic obcaecati officiis ipsam quam in, labore odit.
+            Vero repellat molestiae quidem asperiores, rerum accusantium recusandae iusto illo tempore quo accusamus! </p>
+        </div>
+</div> -->
+
+<!-- <div class="container">
+      <h1>Hajime <span>no</span> Ippo</h1>
+      <img src="download (4).jpeg" alt="bruh" />
+
+      <div class="column">
+        <div class="col col-1">
+          <h2>Mae Ya Sendo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+            cupiditate fuga natus. Et, quas ipsam? Facere earum inventore
+            provident quidem praesentium, amet voluptate laborum itaque
+            repudiandae consectetur aliquam laboriosam perferendis!
+          </p>
+        </div>
+        <div class="col col-2">
+          <h2>Cork Screw feather</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+            dolorem fuga quis sint, explicabo magnam provident voluptate
+            architecto nesciunt dolores eius blanditiis. Dolorum libero
+            doloremque alias at ex recusandae sit! Adipisci ut nostrum nobis
+            architecto ullam eius. Sint labore illum modi ea placeat praesentium
+            tenetur cumque. Eius neque distinctio atque fugiat iste repellat
+            adipisci sunt culpa dolorum nemo? Architecto, temporeAdipisci ut
+            nostrum nobis a
+          </p>
+
+          <p>
+            rchitecto ullam eius. Sint labore illum modi ea placeat praesentium
+            tenetur cumque. Eius neque distinctio atque fugiat iste repellat
+            adipisci sunt culpa dolorum nemo? Architecto, tempore.
+          </p>
+        </div>
+        <div class="col col-1 col-bg">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Accusantium magni officiis aliquid molestias repellat quasi dicta
+            hic qui, dolores facilis similique ab aspernatur explicabo quod quia
+            animi maxime illum amet!
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="col col-3">
+          <h2>Nanja Korewa</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            delectus optio repudiandae molestias, earum quo! Et molestias sint
+            tempore distinctio doloribus accusantium animi beatae harum dolorem
+            quae nisi, consectetur sapiente! Molestias id reiciendis nihil
+            aliquam vero minima, repellat officia aliquid distinctio excepturi
+            accusantium nesciunt. Modi, fuga voluptates? Voluptas quod veniam
+            voluptatibus, cupiditate laborum quos ipsam dolorem ea quibusdam
+            inventore voluptatum.
+          </p>
+        </div>
+        <div class="col col-1 col-bg">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+            quis inventore vel non temporibus sed modi praesentium .
+          </p>
+        </div>
+      </div>
+    </div> -->
